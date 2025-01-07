@@ -18,9 +18,11 @@
         <div class="tasks">
             <% if(files.length>0){ %>
                 <% files.forEach(function(val){ %>
-                    <div class="box"> <%= val %></div>
+                    <div class="box"> <%= val %>
+                        <a href="/file/<%= val %>">Read More</a></div>
                     <!-- <div class="box">heyyaa</div>
                     <div class="box">hiiiii</div> -->
+                    
                 <% })%>
             <% } else { %>
                 <h3>No tasks yet!!</h3>

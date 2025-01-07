@@ -12,6 +12,7 @@
 
 body{
     position:relative;
+    overflow-x: hidden;
 }
 .form{
     /* position:absolute; */
@@ -67,8 +68,17 @@ textarea{
     border-radius: 5px;
     padding:10px;
     opacity:1;
+    
 }
 
+.box a{
+    font-size:1.5rem;
+    color:white;
+    text-decoration: none;
+}
+.box a:hover{
+    color:blue;
+}
 .tasks h3{
     position:absolute;
     left:5%;
