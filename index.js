@@ -22,6 +22,13 @@ app.get("/file/:filename",function(req,res){
     })
 })
 
+app.get("/edit/:filename",function(req,res){
+    fs.rename(`./files/${req.body.previous}`,`./files/${req.body.new}`,function(err){
+        
+    })
+   
+})
+
 app.post("/create",(req,res)=>{
     fs.writeFile(`./files/${req.body.title.split(" ").join("")}.txt`,req.body.details,function(req,res){
         // res.redirect("/");

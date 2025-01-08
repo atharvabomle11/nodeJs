@@ -1,0 +1,43 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+#html,body{
+    height:100%;
+    width:100%;
+    background-color: rgb(40, 39, 39);
+}
+
+a{
+    color:white;
+}
+
+.form{
+    /* position:absolute; */
+    height:300px;
+    width:70%;
+    /* background-color: red; */
+    padding:15px;
+    display:flex;
+}
+
+
+#button{
+    height:35px;
+    width:90px;
+    border-radius: 5px;
+    background-color: blue;
+    color:white;
+    margin-left:5px;    
+    margin-top:5px;
+}
+
+
+.text{
+    width:500px;
+    height:50px;
+    background-color: rgb(181, 173, 173);
+
+}

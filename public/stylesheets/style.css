@@ -68,7 +68,7 @@ textarea{
     border-radius: 5px;
     padding:10px;
     opacity:1;
-    
+    justify-content: space-between;
 }
 
 .box a{
@@ -78,6 +78,9 @@ textarea{
 }
 .box a:hover{
     color:blue;
+}
+#edit{
+    font-size:1rem;
 }
 .tasks h3{
     position:absolute;
